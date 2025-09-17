@@ -127,11 +127,39 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Admin.cpp" />
+    <ClCompile Include="AdminSession.cpp" />
+    <ClCompile Include="class DiningHall.cpp" />
+    <ClCompile Include="Meal.cpp" />
     <ClCompile Include="newwwwwwwwwww.cpp" />
     <ClCompile Include="md5.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="Reservation.cpp" />
+    <ClCompile Include="SessionBase.cpp" />
+    <ClCompile Include="ShoppingCart.cpp" />
+    <ClCompile Include="Storage.cpp" />
+    <ClCompile Include="Student.cpp" />
+    <ClCompile Include="StudentSession.cpp" />
+    <ClCompile Include="Transaction.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AdminSession.h" />
+    <ClInclude Include="Admin.h" />
+    <ClInclude Include="class DiningHall.h" />
+    <ClInclude Include="DiningHall.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="Meal.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="Storage.h" />
+    <ClInclude Include="Student.h" />
+    <ClInclude Include="Reservation.h" />
+    <ClInclude Include="SessionBase.h" />
+    <ClInclude Include="StudentSession.h" />
+    <ClInclude Include="Transaction.h" />
+    <ClInclude Include="ShoppingCart.h" />
     <ClInclude Include="md5.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
